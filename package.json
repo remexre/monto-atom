@@ -1,0 +1,23 @@
+{
+  "name": "monto-atom",
+  "main": "./lib/monto-atom",
+  "version": "0.0.0",
+  "description": "An implementation of Monto for the Atom editor.",
+  "keywords": [],
+  "repository": "https://github.com/atom/monto-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "linter": "^1.0.0",
+    "zeromq": "^4.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
