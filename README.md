@@ -5,7 +5,7 @@ An implementation of Monto for the Atom editor.
 ## Installing
 
 ```
-git clone git@github.umn.edu:ringo025/monto-atom.git
+git clone git@github.umn.edu:melt/monto-atom.git
 cd monto-atom
 npm i
 apm link
