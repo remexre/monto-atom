@@ -2,5 +2,6 @@
   ".dcv2": "dcv2",
   ".java": "java",
   ".js": "javascript",
-  ".py": "python"
+  ".py": "python",
+  ".sv": "silver"
 }

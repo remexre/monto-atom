@@ -1,0 +1,25 @@
+@import "syntax-variables";
+
+// TODO Figure out how to highlight color, rather than background-color.
+
+.highlight.monto {
+	&.comment div.region {
+		// TODO There's not a great background-color for this.
+		background-color: @syntax-color-attribute;
+	}
+	&.constant div.region {
+		background-color: @syntax-color-constant;
+	}
+	&.class div.region {
+		background-color: @syntax-color-class;
+	}
+	&.function div.region {
+		background-color: @syntax-color-function;
+	}
+	&.variable div.region {
+		background-color: @syntax-color-variable;
+	}
+	&.keyword div.region {
+		background-color: @syntax-color-keyword;
+	}
+}
