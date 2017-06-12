@@ -10,3 +10,9 @@ cd monto-atom
 npm i
 apm link
 ```
+
+## Caveats
+
+Currently only supports errors and the token-type (aka lexer class)
+highlighting exposed by Silver.
+
