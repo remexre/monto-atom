@@ -18,7 +18,7 @@
   "styles": [
     "./styles/monto.less"
   ],
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {
     "atom-package-dependencies": "^1.0.3",
     "request": "^2.81.0",
