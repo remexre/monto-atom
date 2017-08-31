@@ -1,7 +1,6 @@
 {
-  ".dcv2": "dcv2",
-  ".java": "java",
-  ".js": "javascript",
-  ".py": "python",
-  ".sv": "silver"
+  "JavaScript": "javascript",
+  "JSON": "json",
+  "Plain Text": "text",
+  "TOML": "toml"
 }

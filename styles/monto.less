@@ -7,9 +7,6 @@
 		// TODO There's not a great background-color for this.
 		background-color: @syntax-color-attribute;
 	}
-	&.constant div.region {
-		background-color: @syntax-color-constant;
-	}
 	&.class div.region {
 		background-color: @syntax-color-class;
 	}
@@ -18,5 +15,11 @@
 	}
 	&.keyword div.region {
 		background-color: @syntax-color-keyword;
+	}
+	&.literal div.region {
+		background-color: @syntax-color-constant;
+	}
+	&.operator div.region {
+		background-color: @syntax-text-color;
 	}
 }

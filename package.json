@@ -6,20 +6,25 @@
       }
     }
   },
-  "dependencies": {
-    "zeromq": "^4.0.0"
-  },
-  "description": "An implementation of Monto for the Atom editor.",
+  "description": "An implementation of Monto3 for the Atom editor.",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "keywords": [],
   "license": "MIT",
   "main": "./lib/monto-atom",
-  "name": "monto-atom",
-  "repository": "https://github.com/atom/monto-atom",
+  "name": "monto3-atom",
+  "repository": "https://github.com/remexre/monto-atom",
   "styles": [
-	"./styles/monto.less"
+    "./styles/monto.less"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1",
+  "dependencies": {
+    "atom-package-dependencies": "^1.0.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "package-dependencies": {
+    "linter": ""
+  }
 }
