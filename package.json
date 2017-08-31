@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "./lib/monto-atom",
   "name": "monto3-atom",
-  "repository": "https://github.com/remexre/monto-atom",
+  "repository": "https://github.com/melt/monto-atom",
   "styles": [
     "./styles/monto.less"
   ],
