@@ -1,6 +1,7 @@
 {
   "JavaScript": "javascript",
   "JSON": "json",
+  "Markdown": "markdown",
   "Plain Text": "text",
   "TOML": "toml"
 }
