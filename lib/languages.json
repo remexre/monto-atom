@@ -3,5 +3,6 @@
   "JSON": "json",
   "Markdown": "markdown",
   "Plain Text": "text",
+  "Shell Script": "bash",
   "TOML": "toml"
 }
